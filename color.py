@@ -32,7 +32,7 @@ def calculate_hue(chroma, c_max, normalized_rgb):
 
 palettes = json.load(open("palettes.json"))
 
-for palette in palettes:
+for palette in palettes[1:]:
     for color in palette["colors"]:
         color["rgb"] = get_rgb(color["hex"])
         normalized_rgb = normalize_rgb(color["rgb"])
