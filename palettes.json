@@ -1,9 +1,24 @@
 [
   {
     "colors": [
-      { "hex": "#002654", "name": "Prussian Blue" },
-      { "hex": "#FFFFFF", "name": "White" },
-      { "hex": "#CE1126", "name": "Fire Engine Red" }
+      {
+        "hex": "#002654",
+        "name": "Prussian Blue",
+        "rgb": [0, 38, 84],
+        "hue": 212.8571428571429
+      },
+      {
+        "hex": "#FFFFFF",
+        "name": "White",
+        "rgb": [255, 255, 255],
+        "hue": 0
+      },
+      {
+        "hex": "#CE1126",
+        "name": "Fire Engine Red",
+        "rgb": [206, 17, 38],
+        "hue": 353.3333333333333
+      }
     ]
   }
 ]
